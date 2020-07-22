@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Additem">
+
+<test name= "Additemtest">
+<parameter name="URL" value="http://www.way2automation.com/angularjs-protractor/webtables/"/>
+<parameter name="Fpath" value="C:\\Users\\azv2311\\Desktop\\Srilatha\\Selenium Files\\WebV1\\Config\\Testdata.xlsx"/>
+
+<classes>
+<class name="com.Web.TC_02AddUser"/>
+
+</classes>
+</test>
+</suite>

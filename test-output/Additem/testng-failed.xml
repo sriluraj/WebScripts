@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Additem]">
+  <test thread-count="5" name="Additemtest(failed)">
+    <parameter name="Fpath" value="C:\\Users\\azv2311\\Desktop\\Srilatha\\Selenium Files\\WebV1\\Config\\Testdata.xlsx"/>
+    <parameter name="URL" value="http://www.way2automation.com/angularjs-protractor/webtables/"/>
+    <classes>
+      <class name="com.Web.TC_02AddUser">
+        <methods>
+          <include name="Adduser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Web.TC_02AddUser -->
+    </classes>
+  </test> <!-- Additemtest(failed) -->
+</suite> <!-- Failed suite [Additem] -->

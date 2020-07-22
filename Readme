@@ -1,0 +1,48 @@
+CONTENTS OF THIS FILE
+---------------------
+
+ * Introduction
+ * Requirements
+ * Recommended modules
+ * Installation
+ * Execution
+ * FAQ
+ * Maintainers
+ 
+ * Introduction
+ -----------------
+ 
+ This Project is about testing a Web Application.
+ URL:http://www.way2automation.com/angularjs-protractor/webtables/ is opened automatically.
+ User is added and User is validated.
+ 
+  * Requirements
+  -----------------
+  
+  Selenium WebDriver,Eclipse IDE,TestNg,Java is used to write the scripts.
+  Maven project is created from Eclipse.
+  
+  * Recommended modules
+  ------------------------
+  
+  The test cases are written in com.Web package.
+  
+   * Installation
+   -----------------
+   
+   All the required dependiencies should be added into pom.xml.
+   They cam be downloaded from Maven repository
+   USe the link: https://mvnrepository.com/
+   
+   
+  *Execution
+  ---------------
+  
+  Inorder to Add the user Execute TestNG.xml file
+  Inorder to validate execute TC_03ValidateUser.java file
+  
+  * Maintainers
+  ---------------
+  All the data is extracted from excel sheet and stored in the project folder config as Testdata.xml
+  Webdriver info is stored in Weddriver folder.
+  

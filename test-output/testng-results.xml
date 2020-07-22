@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Additem" duration-ms="34935" started-at="2020-07-22T08:46:41 CAT" finished-at="2020-07-22T08:47:16 CAT">
+    <groups>
+    </groups>
+    <test name="Additemtest" duration-ms="34935" started-at="2020-07-22T08:46:41 CAT" finished-at="2020-07-22T08:47:16 CAT">
+      <class name="com.Web.TC_02AddUser">
+        <test-method status="PASS" signature="Adduser(java.lang.String, java.lang.String)[pri:0, instance:com.Web.TC_02AddUser@131276c2]" name="Adduser" duration-ms="34885" started-at="2020-07-22T08:46:41 CAT" finished-at="2020-07-22T08:47:16 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.way2automation.com/angularjs-protractor/webtables/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\\Users\\azv2311\\Desktop\\Srilatha\\Selenium Files\\WebV1\\Config\\Testdata.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adduser -->
+      </class> <!-- com.Web.TC_02AddUser -->
+    </test> <!-- Additemtest -->
+  </suite> <!-- Additem -->
+</testng-results>
